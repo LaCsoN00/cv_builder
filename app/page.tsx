@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Eye, RotateCw, Save } from "lucide-react";
 import Image from "next/image";
 import confetti from "canvas-confetti";

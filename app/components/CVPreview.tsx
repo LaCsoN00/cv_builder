@@ -13,7 +13,7 @@ type Props = {
     skills: Skill[];
     hobbies: Hobby[];
     download?: boolean ;
-    ref?:any
+    ref?: React.RefObject<HTMLDivElement | null>
 }
 
 function formatDate(dateString: string): string {
